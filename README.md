@@ -3,7 +3,7 @@
 Bài thực hành Quản lý cấu hình phần mềm với Git & GitHub - IT3180, HUST.
 
 - Sinh viên: **Nguyễn Hoàng Anh**
-- MSSV: **202416121**
+- MSSV: **202416192**
 - Ngôn ngữ: Python 3.10+
 - Phạm vi: Lab 01 đến Lab 05
 
