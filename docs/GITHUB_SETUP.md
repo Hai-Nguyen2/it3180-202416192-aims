@@ -1,11 +1,11 @@
 # Hướng dẫn đưa AIMS-mini lên GitHub và nộp bài
 
-Repository dự kiến: `it3180-202416121-aims`.
+Repository dự kiến: `it3180-202416192-aims`.
 
 ## 1. Tạo repository rỗng trên GitHub
 
 1. Đăng nhập GitHub và chọn **New repository**.
-2. Đặt tên `it3180-202416121-aims`.
+2. Đặt tên `it3180-202416192-aims`.
 3. Chọn **Public** (tài liệu yêu cầu public nếu dùng branch protection với GitHub Free).
 4. Không chọn tạo README, `.gitignore` hoặc license vì repository local đã có các tệp này.
 5. Tạo repository và sao chép URL SSH hoặc HTTPS.
@@ -15,14 +15,14 @@ Repository dự kiến: `it3180-202416121-aims`.
 Có thể giải nén file ZIP đi kèm (file này giữ cả thư mục `.git`) hoặc clone từ file bundle. Ví dụ:
 
 ```bash
-git clone /duong-dan/it3180-202416121-aims.bundle it3180-202416121-aims
-cd it3180-202416121-aims
+git clone /duong-dan/it3180-202416192-aims.bundle it3180-202416192-aims
+cd it3180-202416192-aims
 ```
 
 Sau đó, thay `<GITHUB_USERNAME>` bằng username GitHub của bạn:
 
 ```bash
-git remote add origin git@github.com:<GITHUB_USERNAME>/it3180-202416121-aims.git
+git remote add origin git@github.com:<GITHUB_USERNAME>/it3180-202416192-aims.git
 git push -u origin master
 git push origin --all
 git push origin --tags
@@ -60,6 +60,6 @@ Gói repository có lịch sử commit, merge commit cục bộ, nhánh release 
 
 Sau khi push xong, sao chép URL dạng:
 
-`https://github.com/<GITHUB_USERNAME>/it3180-202416121-aims`
+`https://github.com/<GITHUB_USERNAME>/it3180-202416192-aims`
 
 Dán URL repository này vào ô nộp bài trên LMS. Không dán link ZIP hoặc link máy tính cá nhân.
